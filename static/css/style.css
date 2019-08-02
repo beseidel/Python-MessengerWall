@@ -1,0 +1,466 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  font-size: 12px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.image_img {
+  background-color: #373a3d;
+  height: 100px;
+  width: 1000px;
+  box-align: center;
+}
+
+.main {
+  background-color: gray;
+  width: 1000px;
+  height: 100%;
+  vertical-align: top;
+  background-image: url('../images/background.jpg');
+}
+
+/* img{
+background-color: black;
+height: 95px;
+width:95px;
+} */
+
+.register_box {
+  background-color: whitesmoke;
+  vertical-align: top;
+  height: 500px;
+  width: 360px;
+  display: inline-block;
+  margin: 55px;
+  margin-top: 0px;
+  /* margin-bottom: 60px; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 15px;
+}
+
+.login {
+  background-color: whitesmoke;
+  width: 360px;
+  height: 400px;
+  padding: 15px;
+  color: black;
+}
+
+.box2 {
+  background-color: black;
+  vertical-align: top;
+  height: 400px;
+  width: 370px;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 30px;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: left;
+
+  /* letter-spacing: 10px; */
+}
+.label {
+  color: white;
+  font-family: monospace;
+  font-size: 2px;
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+.label2 {
+  color: white;
+  font-family: monospace;
+  font-size: 2px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.in-box_messages {
+  background-color: grey;
+  /* background-image: url('../images/background3.jpg'); */
+  vertical-align: top;
+  height: 100%;
+  width: 400px;
+  display: inline-block;
+  margin: 30px;
+  margin-top: 50px;
+  font-family: monospace;
+  padding: 10px;
+  border: solid, 10px, white;
+  text-align: left;
+  /* border-color: whitesmoke; */
+}
+.out-box_messages {
+  background-color: gainsboro;
+  background-image: url('../images/background.jpg');
+  vertical-align: top;
+  height: 100%;
+  width: 480px;
+  display: inline-block;
+  /* margin: 30px; */
+  margin-bottom: 50px;
+  font-family: monospace;
+  padding: 10px;
+  border: solid, 1px, white;
+  border-color: white;
+  margin-top: 50px;
+  margin-right: 10px;
+  color: white;
+  text-align: left;
+}
+
+.wall_table {
+  font-family: monospace;
+  background: purple;
+  height: 100px;
+  width: 1000px;
+  vertical-align: top;
+  font-variant-caps: all-small-caps;
+  /* display: inline-block; */
+}
+td {
+  text-align: left;
+  min-width: 61px;
+  color: white;
+  padding: 2px;
+}
+
+th {
+  text-align: left;
+  min-width: 61px;
+  color: white;
+  padding: 2px;
+  font-family: monospace;
+  padding: 40px;
+  font-size: 12px;
+}
+
+textarea {
+  scroll-margin-block-end: 20px;
+}
+
+.box_center {
+  background-color: black;
+  vertical-align: top;
+  height: 450px;
+  width: 350px;
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.link {
+  display: none;
+  font-size: 20px;
+  /* color: white; */
+}
+
+p {
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+}
+
+.a {
+  color: white;
+  letter-spacing: 2px;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.b {
+  color: purple;
+  /* letter-spacing: 1px; */
+  font-family: monospace;
+  font-size: 30px;
+  margin: 25px;
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+.c {
+  color: white;
+  /* letter-spacing: 1px; */
+  font-family: monospace;
+  font-size: 30px;
+  margin: 25px;
+  /* font-variant: small-caps;
+  font-style: italic; */
+  width: 400px;
+  height: 100px;
+  display: inline-block;
+  line-height: 50px;
+}
+
+.submit {
+  width: 100px;
+  height: 50px;
+}
+
+.form_header {
+  font-size: 36px;
+  font-family: monospace;
+  /* width: 352px;
+  height: 44px; */
+  color: rgb(0, 0, 0);
+}
+
+p.center {
+  font-size: 12px;
+  width: 400px;
+  font-family: monospace;
+}
+
+/* .input{
+width: 352px;
+height:36px;
+padding:5px;
+color:black;
+} */
+*/ .a {
+  font-size: 15px;
+}
+
+.btn {
+  width: 357px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  /* border-color: white; */
+  font-size: 25px;
+  margin: 5px;
+}
+
+.btn2 {
+  width: 370px;
+  height: 50px;
+  color: grey;
+  background-color: whitesmoke;
+  border-color: white;
+  font-size: 20px;
+}
+
+.btn_send {
+  width: 367px;
+  height: 50px;
+  color: black;
+  background-color: #2497ff;
+  border: solid, 1px, #4285f4;
+  border-color: #4285f4;
+  font-size: 25px;
+  margin: 5px;
+}
+
+#search_container {
+  height: 40px;
+  width: 390px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+  background-color: black;
+  margin-right: 10px;
+  padding: 10px;
+  /* line-height: 50px; */
+  /* margin-left: 480px; */
+  /* background-position: absolute; */
+}
+
+.search {
+  width: 300px;
+  height: 40px;
+  border: solid, 1px, white;
+  border-color: white;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.search_btn {
+  width: 79px;
+  height: 40px;
+  color: white;
+  background-color: #373a3d;
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: monospace;
+}
+
+.send_btn {
+  width: 73px;
+  height: 40px;
+  color: white;
+  background-color: #2497ff;
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+}
+
+.messages {
+  color: red;
+  text-align: center;
+}
+*/ */ * {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.container {
+  background-color: blue;
+  height: 100%;
+  width: 1000px;
+}
+/* .image_img{
+background-color:green;
+height:100px;
+width:970px;
+box-align: center;
+} */
+img {
+  background-color: black;
+  height: 95px;
+  width: 95px;
+}
+.box {
+  background-color: white;
+  vertical-align: top;
+  height: 100%;
+  width: 400px;
+  display: inline-block;
+  padding: 25px;
+  margin: 20px;
+}
+
+.box_table {
+  background-color: white;
+  vertical-align: top;
+  height: 100%;
+  width: 900px;
+  display: inline-block;
+  padding: 15px;
+  margin: 15px;
+}
+p.flash {
+  color: red;
+}
+.box_table {
+  vertical-align: top;
+  height: 100%;
+  width: 900px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+.foot {
+  background-color: rgb(47, 224, 255);
+  vertical-align: top;
+  height: 100px;
+  width: 960px;
+  padding: 20px;
+  background-image: url('../images/background.jpg');
+}
+.nav {
+  height: 120px;
+  width: 980px;
+  background-color: rgb(47, 224, 255);
+  padding: 10px;
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+  background-image: url('../images/background.jpg');
+  display: inline-block;
+}
+h2 {
+  text-align: left;
+  padding: 0px;
+  font-family: monospace;
+  letter-spacing: 2px;
+  /* margin: 10px; */
+  font-size: 12px;
+  color: white;
+}
+h3 {
+  text-align: left;
+  font-family: monospace;
+}
+h6 {
+  text-align: left;
+  font-family: monospace;
+}
+.form {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.submit {
+  width: 200px;
+  height: 50px;
+  background-color: purple;
+  color: white;
+  font-family: monospace;
+}
+p.center {
+  font-size: 12px;
+  width: 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input {
+  width: 352px;
+  height: 30px;
+  background-color: whitesmoke;
+  align-content: right;
+}
+h1 {
+  text-align: left;
+  font-family: monospace;
+  font-size: 12px;
+  color: white;
+  font-variant-caps: all-small-caps;
+}
+tr .table {
+  text-align: left;
+}
+td .table {
+  text-align: left;
+  width: 100px;
+  color: red;
+}
+/* th .table {
+  text-align: left;
+  font-family: monospace;
+  font-size: 10px;
+  color: white;
+
+} */
+
+.wall {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.send_btn {
+  width: 75px;
+  height: 40px;
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  line-height: 20px;
+  text-align: center;
+  /* border: white, 1px; */
+}

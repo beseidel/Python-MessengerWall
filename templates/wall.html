@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+        <title>Document</title>
+</head>
+
+
+<body>
+<div class="container">
+
+    <div class="nav">
+    <div class="c">THE MESSENGER WALL</div>
+
+        <div id="search_container">
+            <input class="search" type="search" name="Search" id="placeholder">
+            <button><input class="search_btn" type="submit" value="search"/>
+            </button>
+        </div>
+
+    <!-- <a class="a"  href="/logout">Log Out</a>&nbsp;&nbsp;&nbsp; -->
+    <!-- <br></br> -->
+    </div>
+  
+
+    <!-- </div> -->
+    <!-- <div class="image_img">
+
+        <img src="{{ url_for('static', filename='images/Granite-Rocks.jpg') }}">
+    
+      
+
+    </div> -->
+
+<div class="main">
+    
+
+<table class="wall_table">
+
+<th class="wall">CODING DOJO WALL</th> <th class="wall">WELCOME  {{session['mickeys_first_name']}}</th><th><a class="a"  href='/logout'>Log Out</a></th>
+</table>
+
+<div class="in-box_messages">
+
+<h1>HERE ARE YOUR MESSAGE(s) {{session['mickeys_first_name']}} !</h1>
+
+
+<table>
+<tr><td><th>{{counts[0]['COUNT(*)']}} Message(s) for you </th></td></tr>
+</table>
+
+<br></br>
+<hr>
+<table>
+
+<tr> 
+{% for messages in all_messages %}
+
+<td class="b">{{messages['first_name']}} says: </td></tr>
+<tr><td>{{messages['post_content']}}</td></tr>
+<tr><td>{{messages['created_at']}}</td><td><a class="a" href ="/delete/{{messages['id_post']}}">DELETE</a></td></tr>
+
+
+
+
+{% endfor %}
+
+</table>
+<hr>
+
+</div>
+
+<div class="out-box_messages">
+
+
+<h2>SEND MESSAGES TO: </h2>
+<br></br>
+<br></br>
+
+
+
+{{id_receiver}}
+ {% for id_receiver in id_receivers %}
+<form class="form" action='/send_post' method='post'>
+    <table>
+            <tr><td>{{id_receiver['first_name']}}</td>
+            <!-- this means to iterate through the list of members and pull their first name -->
+            
+            <td><input type="hidden" name='id_receive' value="{{id_receiver['id_user']}}"></td>
+          
+            <td><textarea type='text' name="p_content" id="p_content" cols="25" rows="4"></textarea></td>
+          
+            <td><button><input type='submit' class="send_btn" type="submit" value="send"></button></td></tr>
+    </table>
+
+</form>
+{% endfor %}
+
+
+</div>
+
+
+
+</div>
+<div class="foot">
+<p>Footer</p>
+
+</div>
+
+
+
+</div>
+</body>
+
+
+
+
+
+
+
+</html>
